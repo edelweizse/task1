@@ -10,6 +10,9 @@ const jetBrainsMono = JetBrains_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Cicada3301 by LinuxKlub</title>
+      </head>
       <body
         className={jetBrainsMono.className}
       >
