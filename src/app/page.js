@@ -28,14 +28,14 @@ const TypingText = ({ text, speed = 100 }) => {
 
 export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto p-4 text-gr">
+    <div className="max-w-4xl mx-auto p-4 text-white">
       <header className="text-center my-8">
-        <h1 className="text-4xl font-bold text-gr">
+        <h1 className="text-4xl font-bold text-white">
           <TypingText text="[Linux Klub]" speed={75}/>
         </h1>
       </header>
-      <section className="shadow-lg mb-8 border-2 border-gr ">
-        <div className="flex flex-col items-center justify-center text-gr p-5">
+      <section className="shadow-lg mb-8 border-2 border-white ">
+        <div className="flex flex-col items-center justify-center text-white p-5">
           <h2 className="text-2xl font-semibold text-center">
             <TypingText text="Task 1: Look beyond the visible" speed={50}/>
           </h2>
@@ -46,7 +46,7 @@ export default function Home() {
             className="block w-full max-w-[500px] cursor-pointer"
           >
             <div 
-              className="quiz_image w-full aspect-[5/2] border border-green-600 bg-green-700 hover:bg-green-800 transition-colors duration-300"
+              className="quiz_image w-full aspect-[5/2] bg-white-700 hover:bg-white-800 transition-colors duration-300"
               role="img"
               aria-label="Downloadable quiz image"
             />
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
       </section>
       <section>
-        <p className="text-gr mb-2">
+        <p className="text-white mb-2">
           Rules:
         </p>
         <ul>
@@ -63,7 +63,7 @@ export default function Home() {
           <li>Rule 2:</li>
           <li>Rule 3:</li>
         </ul>
-        <p className="text-gr mt-4">
+        <p className="text-white mt-4">
           Brought to you by <span className="font-bold">Linux Klub</span>, a community for tech enthusiasts. Dive in and see how many you can get right!
         </p>
     </section>
