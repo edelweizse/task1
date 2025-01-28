@@ -59,9 +59,9 @@ export default function Home() {
           Rules:
         </p>
         <ul>
-          <li>Rule 1:</li>
-          <li>Rule 2:</li>
-          <li>Rule 3:</li>
+          <li>1. W.I.P.</li>
+          <li>2. QRs: do not tear, do not move from place to place and do not take them with you. You may only take pictures, but no more.</li>
+          <li>3. Be courteous to each other and don't interfere with others learning/going through the same game.</li>
         </ul>
         <p className="text-white mt-4">
           Brought to you by <span className="font-bold">Linux Klub</span>, a community for tech enthusiasts. Dive in and see how many you can get right!
