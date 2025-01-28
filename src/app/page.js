@@ -36,12 +36,23 @@ export default function Home() {
       </header>
       <section className="rounded-2xl shadow-lg mb-8 border border-green-600">
         <div className="flex flex-col items-center justify-center text-green-600 p-5">
-          <h2 className="text-2xl font-semibold">Color-Coded Answers</h2>
-          <p className="text-center mt-2">Explore hints embedded in the image!</p>
-          <a href=" https://placehold.in/500x200@1x.png/dark " download className="quiz_image mt-4 bg-green-700 hover:bg-green-700 text-black px-4 py-2 rounded-lg border border-green-600 w-[500px] h-[200px]">
-
+          <h2 className="text-2xl font-semibold text-center">
+            <TypingText text="Look beyond the visible"/>
+          </h2>
+          <div className="w-full max-w-[500px] mt-4">
+          <a 
+            href="/Untitled.jpg" 
+            download="Untitled.jpg"
+            className="block w-full max-w-[500px] cursor-pointer"
+          >
+            <div 
+              className="quiz_image w-full aspect-[5/2] rounded-lg border border-green-600 bg-green-700 hover:bg-green-800 transition-colors duration-300"
+              role="img"
+              aria-label="Downloadable quiz image"
+            />
           </a>
-        </div>
+          </div>        
+          </div>
       </section>
       <section>
         <p className="text-green-400 mb-4">

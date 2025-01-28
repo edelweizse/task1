@@ -21,9 +21,7 @@ body {
 }
 
 .quiz_image {
-  background-image: url(' https://placehold.in/500x200@1x.png/dark ');
+  background-image: url('/Untitled.jpg');
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 500px;
 }
