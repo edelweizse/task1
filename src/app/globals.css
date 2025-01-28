@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.quiz_image {
+  background-image: url(' https://placehold.in/500x200@1x.png/dark ');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 500px;
+}
