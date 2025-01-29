@@ -41,8 +41,8 @@ export default function Home() {
           </h2>
           <div className="w-full max-w-[500px] mt-4">
           <a 
-            href="/Untitled.jpg" 
-            download="Untitled.jpg"
+            href="/task.jpg" 
+            download="task.jpg"
             className="block w-full max-w-[500px] cursor-pointer"
           >
             <div 
@@ -59,17 +59,24 @@ export default function Home() {
           Rules:
         </p>
         <ul>
-          <li>1. W.I.P.</li>
+          <li>
+            <p>
+            1. Compete solo or in pairs.
+              6 prizes total.
+              Pair wins = 2 prizes (1 per person).
+              Individual wins = 1 prize.
+              Prizes awarded until all 6 are distributed.
+            </p>
+          </li>
           <li>2. QRs: do not tear, do not move from place to place and do not take them with you. You may only take pictures, but no more.</li>
           <li>3. Be courteous to each other and don't interfere with others learning/going through the same game.</li>
         </ul>
-        <p className="text-white mt-4">
-          Brought to you by <span className="font-bold">Linux Klub</span>, a community for tech enthusiasts. Dive in and see how many you can get right!
-        </p>
     </section>
-    <p className="hidden">
-      3301
-    </p>
+    <section>
+      <p className="hidden">
+        A9:b6/67gIOB
+      </p>
+    </section>
     </div>
   );
 }
